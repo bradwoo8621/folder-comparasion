@@ -1,6 +1,6 @@
 {
   "name": "folder-comparasion",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "compare files in folder recursively",
   "main": "src/index.js",
   "bin": {
