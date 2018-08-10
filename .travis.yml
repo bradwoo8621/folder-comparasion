@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- 6
+install:
+- npm install
+- npm link
+deploy:
+  skip_cleanup: true
+  provider: npm
+  email: bradwoo8621@gmail.com
+  api_key:
+    secure: vsfuonOMjKdUzQ9S9X8B/FJhVZiuB3QaUhqJDXa11KOwrwLZb6xQ2TooUWQ06N8GhSNFN8YJ2cErbsrBs36yfxtAbbuURbr+HDXh4WtMjZB7ejQp/MdcV5MU6GOgXAuDmb5ETn52fgf3xgwLRVYADGtOeLfTb5y0z3TLFbTulKuZgkDJkNEAvXoMn7K/C/MzWJHMarNPLVJx4Z9CZrQTk4a54bRlHuzWyfom4IhP/M6mTMTzPEm3lvRHFVlV47lZvtSkfhXiwS4VGxhU18LJtB7g4Cx2Tjt3aV2G5ZDz+JYCIlB7fwLn4ioubmp2LwGwxndrPU2yDxRus+nMqbocWygU/d0/DJF/5IOPZx4jDxdPpAyI9pN9lNoszAO9+nbSuvCm6NSnVgQyBKCLykOaf4zs3E0DXvTimdTwBZW2tVLfGJLbyFDS+ETU8obRY3DsjqP42aYvissIQUrbD0HUy49zf1fZZ/W+BA09CF+afA1AcSicDqE70bggIQYMy1WlRNN48rpka67zemhe/2iqExSsQ+ULVn0TlzUWoZ84zW3gOMspiNWOWK+bBCiGRPdV5GU95PvCRAAugVSQnkPIU3Na9qjgaYvyMJMuIIG+KWiWTdRc8Op0aVQdWbiv6ZUqW40SYt1OIQmr7xtVpRm3zeWKadcVpHQ0IsNUMrXX4Iw=
+  on:
+    tags: true

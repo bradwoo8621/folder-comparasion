@@ -1,0 +1,23 @@
+{
+  "name": "folder-comparasion",
+  "version": "0.0.1",
+  "description": "compare files in folder recursively",
+  "main": "src/index.js",
+  "bin": {
+    "folder-comparasion": "./bin/folder-comparasion.js"
+  },
+  "scripts": {
+    "start": "node bin/folder-comparasion.js"
+  },
+  "keywords": [
+    "folder",
+    "file",
+    "comparasion"
+  ],
+  "author": "bradwoo8621",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.3.1",
+    "md5-file": "^4.0.0"
+  }
+}
