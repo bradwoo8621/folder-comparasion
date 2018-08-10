@@ -2,7 +2,7 @@
 Create and put `folder-compare-config.js` in your app directory.  
 
 ```javascript
-{
+module.exports = {
 	source: 'SOURCE_DIRECTORY_ABSOLUTE_PATH',
 	sourceName: 'SOURCE_COLUMN_NAME',
 	target: 'TARGET_DIRECTORY_ABSOLUTE_PATH',
